@@ -1,0 +1,26 @@
+{
+  "name": "goobex-project",
+  "version": "1.0.0",
+  "description": "A game plataform",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guruunoob/goobex-project.git"
+  },
+  "author": "guruunoob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guruunoob/goobex-project/issues"
+  },
+  "homepage": "https://github.com/guruunoob/goobex-project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
